@@ -29,8 +29,7 @@ jobs:
     # 只有自己点 Star 才触发
     if: github.event.repository.owner.id == github.event.sender.id
     steps:
-    # 当 Python 和 Ruby 打卡同时开启时先等待 Python 完成
-    - name: Wait
+
       run: sleep 2m
     - name: Checkout
       uses: actions/checkout@master
