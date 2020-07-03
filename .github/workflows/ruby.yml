@@ -29,8 +29,6 @@ jobs:
     # 只有自己点 Star 才触发
     if: github.event.repository.owner.id == github.event.sender.id
     steps:
-
-      run: sleep 2m
     - name: Checkout
       uses: actions/checkout@master
     - name: Ruby Setup
