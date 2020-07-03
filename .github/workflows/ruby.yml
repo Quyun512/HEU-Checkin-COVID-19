@@ -53,7 +53,7 @@ jobs:
       env:
         TZ: Asia/Shanghai
         LANG: zh_CN.UTF-8
-        SECRET_ID: ${{ secrets.SECRET_ID }}
+        SECRET_ID: ${{ secrets.SECRET_ADAIR }}
         SECRET_PASS: ${{ secrets.SECRET_PASS }}
       run: |
         ruby checkin.rb | tee -a checkin-ruby.log
