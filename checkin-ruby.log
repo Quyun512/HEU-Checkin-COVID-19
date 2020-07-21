@@ -796,3 +796,7 @@
 [info] End at 2020-07-22 06:21:41 +0800.
 =========================
 
+=========================
+2020-07-22 07:21:51 WARN Selenium [DEPRECATION] Selenium::WebDriver::Error::ElementNotVisibleError is deprecated. Use Selenium::WebDriver::Error::ElementNotInteractableError (ensure the driver supports W3C WebDriver specification) instead.
+2020-07-22 07:21:51 WARN Selenium [DEPRECATION] Selenium::WebDriver::Error::InvalidElementStateError is deprecated. Use Selenium::WebDriver::Error::ElementNotInteractableError (ensure the driver supports W3C WebDriver specification) instead.
+
